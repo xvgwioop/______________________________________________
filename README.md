@@ -17,13 +17,15 @@
   }
 
   .center-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    max-width: 500px;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 500px;
+  height: 100vh; /* 👈 เพิ่มบรรทัดนี้ */
+}
+
 
   .login-box {
     background: rgba(255, 240, 245, 0.6);
